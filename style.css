@@ -1,4 +1,150 @@
-body{
-    background: cyan;
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+body {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10%;
+    background-color: black;
 }
+
+/* star of nav bar */
+nav{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
+
+nav .logo-siriuseagle{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .logo-siriuseagle img {
+    width: 40px;
+    border-radius: 100%;
+}
+
+nav h1{
+    font-size: 22px;
+    color: orange;
+}
+nav .tabs{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .tabs p{
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: rgb(75, 73, 73);
+}
+
+nav .tabs input{
+    margin: 8px 20px;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+/* end of nav bar */
+
+/* start of header */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: orange;
+}
+
+header .button{
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* end of header */
+
+/* start of main section */
+.intro {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.introcard img{
+    width: 300px;
+    height: 400px;
+}
+
+.concept p {
+    color: white;
+}
+.concept .intropic{
+
+    color: white;
+}
+
+
+.main{
+    margin: 13px;
+    margin-top: 80px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+/* start of cards */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cards .card{
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.cards .card img{
+    width: 200px;
+    height: 250px;
+}
+
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card .card-body p{
+    margin-top: 20px;
+    color: white;
+    font-size:small;
+
+}
+/* end of cards */
+/* end of main section */
+
+
+
